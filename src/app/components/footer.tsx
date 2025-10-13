@@ -7,6 +7,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -35,10 +36,15 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
-              <span className="text-2xl font-bold">BOURBON</span>
+              <Link href="/" className="flex items-center space-x-2">
+                <Image
+                  width={1000}
+                  height={1000}
+                  src="/assets/logo.png"
+                  alt="logo"
+                  className="h-20 w-auto object-cover"
+                />
+              </Link>
             </div>
             <p className="text-white/80 mb-6 leading-relaxed">
               Leading provider of marine services to the offshore oil and gas
