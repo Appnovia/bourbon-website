@@ -1,9 +1,9 @@
 const Stats = () => {
   const stats = [
-    { value: "500+", label: "Vessels Worldwide" },
-    { value: "10,000+", label: "Seafarers & Employees" },
-    { value: "50+", label: "Countries Served" },
-    { value: "40+", label: "Years of Excellence" },
+    { value: "223", label: "Vessels" },
+    { value: "5,842", label: "Employees" },
+    { value: "37", label: "Countries Served" },
+    { value: "733 M€", label: "Consolidated Revenues" },
   ];
 
   return (
