@@ -59,7 +59,7 @@ const Fleet = () => {
             >
               {/* Image */}
               <div className="lg:w-1/2 relative group">
-                <div className="relative overflow-hidden rounded-2xl shadow-[var(--shadow-strong)]">
+                <div className="relative overflow-hidden rounded-xl ">
                   <Image
                     width={1000}
                     height={1000}
@@ -67,7 +67,7 @@ const Fleet = () => {
                     alt={vessel.name}
                     className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
+                  {/* <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" /> */}
 
                   {/* Type Badge */}
                   <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full flex items-center space-x-2">

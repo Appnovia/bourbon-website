@@ -42,7 +42,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
               <div key={item.label} className="relative group">
                 <button className="flex items-center space-x-1 text-foreground hover:text-primary transition-[var(--transition-smooth)] font-medium">
@@ -67,7 +67,7 @@ const Navigation = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <Button className="bg-[#cc0000] text-white" size="lg">
               CONTACT
             </Button>
@@ -75,7 +75,7 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="lg:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X /> : <Menu />}
@@ -84,7 +84,7 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 space-y-4 animate-fade-in">
+          <div className="lg:hidden py-4 space-y-4 animate-fade-in">
             {navItems.map((item) => (
               <div key={item.label} className="space-y-2">
                 <h3 className="font-semibold text-foreground">{item.label}</h3>

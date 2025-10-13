@@ -22,7 +22,7 @@ const Stats = () => {
               className="text-center animate-scale-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="text-5xl md:text-6xl font-bold text-white mb-2">
+              <div className="text-4xl md:text-6xl font-bold text-white mb-2">
                 {stat.value}
               </div>
               <div className="text-lg text-white/80 font-medium">

@@ -1,20 +1,20 @@
-import { ArrowRight, Play } from "lucide-react";
-import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background video with Overlay */}
       <div className="absolute inset-0">
-        <Image
-          width={1000}
-          height={1000}
-          src="/assets/hero-ocean.jpg"
-          alt="Offshore vessel at sea"
+        <video
+          src="https://res.cloudinary.com/duqllxlfn/video/upload/v1726085709/website/s7hdmk0cd9uisnc7j1om.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-hero" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
       </div>
 
       {/* Content */}
