@@ -1,20 +1,26 @@
-import { About } from "./components/about";
-import { Contact } from "./components/contacts";
-import { Footer } from "./components/footer";
-import { GlobalApproach } from "./components/global-approach";
-import { Hero } from "./components/hero";
-import { Innovation } from "./components/innovation";
-import { Services } from "./components/services";
+import CTABanner from "./components/ctaBanner";
+import Excellence from "./components/excelence";
+import Fleet from "./components/fleet";
+import Footer from "./components/footer";
+import Hero from "./components/hero";
+import Navigation from "./components/navigation";
+import News from "./components/news";
+import Services from "./components/services";
+import Stats from "./components/stats";
+import Testimonials from "./components/testimonies";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <Navigation />
       <Hero />
       <Services />
-      <About />
-      <Innovation />
-      <GlobalApproach />
-      <Contact />
+      <Stats />
+      <Excellence />
+      <Fleet />
+      <News />
+      <Testimonials />
+      {/* <CTABanner /> */}
       <Footer />
     </main>
   );
