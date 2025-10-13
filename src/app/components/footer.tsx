@@ -134,7 +134,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-white/60 text-sm">
-            © 2025 Bourbon Offshore. All rights reserved.
+            &copy; {new Date().getFullYear()} Bourbon. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <Link
