@@ -3,21 +3,21 @@ import ServiceCard from "./serviceCard";
 const Services = () => {
   const services = [
     {
-      image: "/assets/marine-logistics.jpg",
+      image: "/assets/bour.jpeg",
       title: "Marine & Logistics",
       description:
         "Comprehensive offshore support vessel services including supply, anchor handling, and platform support for the global energy industry.",
       link: "#marine",
     },
     {
-      image: "/assets/subsea-operations.jpg",
+      image: "/assets/bour-2.jpeg",
       title: "Subsea Operations",
       description:
         "Advanced subsea construction, inspection, and maintenance services utilizing state-of-the-art ROVs and specialized equipment.",
       link: "#subsea",
     },
     {
-      image: "/assets/passenger-mobility.jpg",
+      image: "/assets/bour-3.jpeg",
       title: "Passenger Mobility",
       description:
         "Safe and efficient crew transfer services connecting offshore installations with onshore facilities across the globe.",

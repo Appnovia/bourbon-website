@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const Fleet = () => {
   const vessels = [
     {
-      image: "/assets/fleet-ahts.jpg",
+      image: "/assets/bour-10.jpeg",
       icon: Anchor,
       type: "AHTS",
       name: "Anchor Handling Tug Supply",
@@ -14,7 +14,7 @@ const Fleet = () => {
         "Powerful vessels designed for anchor handling, towing operations, and platform positioning in the most demanding offshore environments.",
     },
     {
-      image: "/assets/ship.jpg",
+      image: "/assets/bour-8.jpeg",
       icon: Ship,
       type: "PSV",
       name: "Platform Supply Vessels",
@@ -23,7 +23,7 @@ const Fleet = () => {
         "Reliable supply chain solutions delivering cargo, equipment, and materials to offshore platforms with precision and efficiency.",
     },
     {
-      image: "/assets/fleet-wind.jpg",
+      image: "/assets/bour-4.jpeg",
       icon: Wind,
       type: "Wind Farm",
       name: "Renewable Energy Support",

@@ -31,13 +31,13 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center">
             <Image
               width={1000}
               height={1000}
-              src="/assets/logo_bourbon.png"
+              src="/assets/bour.png"
               alt="logo"
-              className="h-20 w-auto object-cover"
+              className="h-60 w-full object-cover"
             />
           </Link>
 

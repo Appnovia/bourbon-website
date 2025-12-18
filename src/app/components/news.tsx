@@ -14,7 +14,7 @@ const News = () => {
       featured: true,
     },
     {
-      image: "/assets/marine-logistics.jpg",
+      image: "/assets/bour-6.jpeg",
       category: "Operations",
       date: "March 10, 2025",
       title: "Expanding Our Presence in the Gulf of Mexico",
@@ -22,7 +22,7 @@ const News = () => {
         "New contract wins strengthen our position as the leading offshore service provider in key energy markets.",
     },
     {
-      image: "/assets/subsea-operations.jpg",
+      image: "/assets/bour-9.jpeg",
       category: "Innovation",
       date: "March 5, 2025",
       title: "Pioneering Subsea Technology for Deeper Waters",
