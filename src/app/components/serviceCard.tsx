@@ -12,7 +12,6 @@ interface ServiceCardProps {
 const ServiceCard = ({ image, title, description }: ServiceCardProps) => {
   return (
     <div className="group relative overflow-hidden rounded-xl bg-card shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-strong)] transition-all duration-500 hover:-translate-y-2">
-      {/* Image Container */}
       <div className="relative h-64 overflow-hidden">
         <Image
           width={1000}
