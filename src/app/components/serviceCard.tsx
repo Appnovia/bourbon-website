@@ -23,7 +23,6 @@ const ServiceCard = ({ image, title, description }: ServiceCardProps) => {
         <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
       </div>
 
-      {/* Content */}
       <div className="p-6 space-y-4">
         <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-[var(--transition-smooth)]">
           {title}
